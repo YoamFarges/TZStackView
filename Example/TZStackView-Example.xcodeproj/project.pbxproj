@@ -22,11 +22,13 @@
 		DB3E095F1B35ADB000EB8598 /* TZStackViewAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E095B1B35ADB000EB8598 /* TZStackViewAlignment.swift */; };
 		DB3E09601B35ADB000EB8598 /* TZStackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E095C1B35ADB000EB8598 /* TZStackViewDistribution.swift */; };
 		DB3E09611B35ADB000EB8598 /* TZSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E095D1B35ADB000EB8598 /* TZSpacerView.swift */; };
-		DB3E09631B35AE7800EB8598 /* AutoHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E09621B35AE7800EB8598 /* AutoHideView.swift */; };
+		DB3E09631B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E09621B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift */; };
 		DF7A05151B81C66F00E90623 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A05121B81C66F00E90623 /* StackView.swift */; };
 		DF7A05161B81C66F00E90623 /* StackViewAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A05131B81C66F00E90623 /* StackViewAlignment.swift */; };
 		DF7A05171B81C66F00E90623 /* StackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A05141B81C66F00E90623 /* StackViewDistribution.swift */; };
 		DF7A051B1B81C7BB00E90623 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A051A1B81C7BB00E90623 /* TestViewController.swift */; };
+		DF7A051D1B81C82100E90623 /* HideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A051C1B81C82100E90623 /* HideView.swift */; };
+		DF7A051F1B81C8C900E90623 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A051E1B81C8C900E90623 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,11 +69,13 @@
 		DB3E095B1B35ADB000EB8598 /* TZStackViewAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZStackViewAlignment.swift; sourceTree = "<group>"; };
 		DB3E095C1B35ADB000EB8598 /* TZStackViewDistribution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZStackViewDistribution.swift; sourceTree = "<group>"; };
 		DB3E095D1B35ADB000EB8598 /* TZSpacerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZSpacerView.swift; sourceTree = "<group>"; };
-		DB3E09621B35AE7800EB8598 /* AutoHideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoHideView.swift; sourceTree = "<group>"; };
+		DB3E09621B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplicitIntrinsicContentSizeView.swift; sourceTree = "<group>"; };
 		DF7A05121B81C66F00E90623 /* StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackView.swift; path = "TZStackView-Example/StackView/StackView.swift"; sourceTree = "<group>"; };
 		DF7A05131B81C66F00E90623 /* StackViewAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackViewAlignment.swift; path = "TZStackView-Example/StackView/StackViewAlignment.swift"; sourceTree = "<group>"; };
 		DF7A05141B81C66F00E90623 /* StackViewDistribution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackViewDistribution.swift; path = "TZStackView-Example/StackView/StackViewDistribution.swift"; sourceTree = "<group>"; };
 		DF7A051A1B81C7BB00E90623 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		DF7A051C1B81C82100E90623 /* HideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideView.swift; sourceTree = "<group>"; };
+		DF7A051E1B81C8C900E90623 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +114,8 @@
 				9ECA23801B6B59D8003C2AEC /* TZStackView.h */,
 				9ECA23821B6B59D8003C2AEC /* Info.plist */,
 			);
-			path = TZStackView;
+			name = TZStackView;
+			path = ../TZStackView;
 			sourceTree = "<group>";
 		};
 		DB3E092C1B35A90000EB8598 = {
@@ -118,7 +123,6 @@
 			children = (
 				DF7A05181B81C67400E90623 /* StackView */,
 				DB3E09371B35A90000EB8598 /* TZStackView-Example */,
-				9ECA237F1B6B59D8003C2AEC /* TZStackView */,
 				DB3E09361B35A90000EB8598 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,14 +139,14 @@
 		DB3E09371B35A90000EB8598 /* TZStackView-Example */ = {
 			isa = PBXGroup;
 			children = (
-				DF7A051A1B81C7BB00E90623 /* TestViewController.swift */,
-				DB3E093C1B35A90000EB8598 /* TZViewController.swift */,
-				DB3E09621B35AE7800EB8598 /* AutoHideView.swift */,
+				DF7A05201B81CFE600E90623 /* New */,
+				DF7A05211B81E26200E90623 /* Old */,
 				DB3E093A1B35A90000EB8598 /* AppDelegate.swift */,
+				5F50E333CDB58CFA48A0C89F /* TZStackView */,
 				DB3E09411B35A90000EB8598 /* Images.xcassets */,
 				DB3E09431B35A90000EB8598 /* LaunchScreen.xib */,
 				DB3E09381B35A90000EB8598 /* Supporting Files */,
-				5F50E333CDB58CFA48A0C89F /* TZStackView */,
+				9ECA237F1B6B59D8003C2AEC /* TZStackView */,
 			);
 			path = "TZStackView-Example";
 			sourceTree = "<group>";
@@ -163,6 +167,25 @@
 				DF7A05141B81C66F00E90623 /* StackViewDistribution.swift */,
 			);
 			name = StackView;
+			sourceTree = "<group>";
+		};
+		DF7A05201B81CFE600E90623 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A051A1B81C7BB00E90623 /* TestViewController.swift */,
+				DF7A051E1B81C8C900E90623 /* TestView.swift */,
+				DF7A051C1B81C82100E90623 /* HideView.swift */,
+			);
+			name = New;
+			sourceTree = "<group>";
+		};
+		DF7A05211B81E26200E90623 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E093C1B35A90000EB8598 /* TZViewController.swift */,
+				DB3E09621B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift */,
+			);
+			name = Old;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +320,9 @@
 				DB3E093B1B35A90000EB8598 /* AppDelegate.swift in Sources */,
 				DF7A05171B81C66F00E90623 /* StackViewDistribution.swift in Sources */,
 				DB3E095F1B35ADB000EB8598 /* TZStackViewAlignment.swift in Sources */,
-				DB3E09631B35AE7800EB8598 /* AutoHideView.swift in Sources */,
+				DF7A051D1B81C82100E90623 /* HideView.swift in Sources */,
+				DF7A051F1B81C8C900E90623 /* TestView.swift in Sources */,
+				DB3E09631B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

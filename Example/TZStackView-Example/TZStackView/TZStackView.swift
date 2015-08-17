@@ -33,7 +33,11 @@ public class TZStackView: UIView {
         }
     }
     
-    public var alignment: TZStackViewAlignment = .Fill
+    public var alignment: TZStackViewAlignment = .Fill {
+        didSet {
+            setNeedsUpdateConstraints()
+        }
+    }
 
     public var spacing: CGFloat = 0
     

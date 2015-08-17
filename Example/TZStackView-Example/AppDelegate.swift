@@ -15,9 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        //Appearance proxy for the UISegmentedControl font
+        UISegmentedControl.appearance().setTitleTextAttributes(
+            [NSFontAttributeName:UIFont(name: "HelveticaNeue-Light", size:10.0)!],
+        forState: UIControlState.Normal)
+        
+        //Launch the application
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-
-        window?.rootViewController = TZViewController()
+        window?.rootViewController = UINavigationController(rootViewController: TestViewController())
         window?.makeKeyAndVisible()
         return true
     }

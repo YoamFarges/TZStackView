@@ -1,11 +1,11 @@
-//
-// Created by Tom van Zummeren on 10/06/15.
-// Copyright (c) 2015 Tom van Zummeren. All rights reserved.
-//
+/*******************************************************************************
+* HideView.swift by Yoam Farges on 17/08/2015
+*   Copyright (c) 2015 Tom van Zummeren. All rights reserved.
+*******************************************************************************/
 
 import UIKit
 
-class AutoHideView: UIView {
+class HideView: UIView {
     init() {
         super.init(frame: CGRectZero)
         
@@ -17,9 +17,9 @@ class AutoHideView: UIView {
     func tap() {
         UIView.animateWithDuration(0.6, delay:0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: .AllowUserInteraction, animations: {
             self.hidden = true
-        }, completion: nil)
+            }, completion: nil)
     }
-
+    
     required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
