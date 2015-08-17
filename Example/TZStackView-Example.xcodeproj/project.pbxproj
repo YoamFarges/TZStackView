@@ -15,14 +15,18 @@
 		9ECA238D1B6B59DD003C2AEC /* TZStackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E095C1B35ADB000EB8598 /* TZStackViewDistribution.swift */; };
 		9ECA238E1B6B59DD003C2AEC /* TZSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E095D1B35ADB000EB8598 /* TZSpacerView.swift */; };
 		DB3E093B1B35A90000EB8598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E093A1B35A90000EB8598 /* AppDelegate.swift */; };
-		DB3E093D1B35A90000EB8598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E093C1B35A90000EB8598 /* ViewController.swift */; };
+		DB3E093D1B35A90000EB8598 /* TZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E093C1B35A90000EB8598 /* TZViewController.swift */; };
 		DB3E09421B35A90000EB8598 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3E09411B35A90000EB8598 /* Images.xcassets */; };
 		DB3E09451B35A90000EB8598 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3E09431B35A90000EB8598 /* LaunchScreen.xib */; };
 		DB3E095E1B35ADB000EB8598 /* TZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E095A1B35ADB000EB8598 /* TZStackView.swift */; };
 		DB3E095F1B35ADB000EB8598 /* TZStackViewAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E095B1B35ADB000EB8598 /* TZStackViewAlignment.swift */; };
 		DB3E09601B35ADB000EB8598 /* TZStackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E095C1B35ADB000EB8598 /* TZStackViewDistribution.swift */; };
 		DB3E09611B35ADB000EB8598 /* TZSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E095D1B35ADB000EB8598 /* TZSpacerView.swift */; };
-		DB3E09631B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E09621B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift */; };
+		DB3E09631B35AE7800EB8598 /* AutoHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E09621B35AE7800EB8598 /* AutoHideView.swift */; };
+		DF7A05151B81C66F00E90623 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A05121B81C66F00E90623 /* StackView.swift */; };
+		DF7A05161B81C66F00E90623 /* StackViewAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A05131B81C66F00E90623 /* StackViewAlignment.swift */; };
+		DF7A05171B81C66F00E90623 /* StackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A05141B81C66F00E90623 /* StackViewDistribution.swift */; };
+		DF7A051B1B81C7BB00E90623 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A051A1B81C7BB00E90623 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +60,18 @@
 		DB3E09351B35A90000EB8598 /* TZStackView-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TZStackView-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3E09391B35A90000EB8598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB3E093A1B35A90000EB8598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB3E093C1B35A90000EB8598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB3E093C1B35A90000EB8598 /* TZViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZViewController.swift; sourceTree = "<group>"; };
 		DB3E09411B35A90000EB8598 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DB3E09441B35A90000EB8598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DB3E095A1B35ADB000EB8598 /* TZStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZStackView.swift; sourceTree = "<group>"; };
 		DB3E095B1B35ADB000EB8598 /* TZStackViewAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZStackViewAlignment.swift; sourceTree = "<group>"; };
 		DB3E095C1B35ADB000EB8598 /* TZStackViewDistribution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZStackViewDistribution.swift; sourceTree = "<group>"; };
 		DB3E095D1B35ADB000EB8598 /* TZSpacerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZSpacerView.swift; sourceTree = "<group>"; };
-		DB3E09621B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplicitIntrinsicContentSizeView.swift; sourceTree = "<group>"; };
+		DB3E09621B35AE7800EB8598 /* AutoHideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoHideView.swift; sourceTree = "<group>"; };
+		DF7A05121B81C66F00E90623 /* StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackView.swift; path = "TZStackView-Example/StackView/StackView.swift"; sourceTree = "<group>"; };
+		DF7A05131B81C66F00E90623 /* StackViewAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackViewAlignment.swift; path = "TZStackView-Example/StackView/StackViewAlignment.swift"; sourceTree = "<group>"; };
+		DF7A05141B81C66F00E90623 /* StackViewDistribution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackViewDistribution.swift; path = "TZStackView-Example/StackView/StackViewDistribution.swift"; sourceTree = "<group>"; };
+		DF7A051A1B81C7BB00E90623 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,7 @@
 		DB3E092C1B35A90000EB8598 = {
 			isa = PBXGroup;
 			children = (
+				DF7A05181B81C67400E90623 /* StackView */,
 				DB3E09371B35A90000EB8598 /* TZStackView-Example */,
 				9ECA237F1B6B59D8003C2AEC /* TZStackView */,
 				DB3E09361B35A90000EB8598 /* Products */,
@@ -126,9 +135,10 @@
 		DB3E09371B35A90000EB8598 /* TZStackView-Example */ = {
 			isa = PBXGroup;
 			children = (
-				DB3E09621B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift */,
+				DF7A051A1B81C7BB00E90623 /* TestViewController.swift */,
+				DB3E093C1B35A90000EB8598 /* TZViewController.swift */,
+				DB3E09621B35AE7800EB8598 /* AutoHideView.swift */,
 				DB3E093A1B35A90000EB8598 /* AppDelegate.swift */,
-				DB3E093C1B35A90000EB8598 /* ViewController.swift */,
 				DB3E09411B35A90000EB8598 /* Images.xcassets */,
 				DB3E09431B35A90000EB8598 /* LaunchScreen.xib */,
 				DB3E09381B35A90000EB8598 /* Supporting Files */,
@@ -143,6 +153,16 @@
 				DB3E09391B35A90000EB8598 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF7A05181B81C67400E90623 /* StackView */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A05121B81C66F00E90623 /* StackView.swift */,
+				DF7A05131B81C66F00E90623 /* StackViewAlignment.swift */,
+				DF7A05141B81C66F00E90623 /* StackViewDistribution.swift */,
+			);
+			name = StackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,11 +289,15 @@
 			files = (
 				DB3E09611B35ADB000EB8598 /* TZSpacerView.swift in Sources */,
 				DB3E095E1B35ADB000EB8598 /* TZStackView.swift in Sources */,
-				DB3E093D1B35A90000EB8598 /* ViewController.swift in Sources */,
+				DF7A051B1B81C7BB00E90623 /* TestViewController.swift in Sources */,
+				DB3E093D1B35A90000EB8598 /* TZViewController.swift in Sources */,
+				DF7A05161B81C66F00E90623 /* StackViewAlignment.swift in Sources */,
+				DF7A05151B81C66F00E90623 /* StackView.swift in Sources */,
 				DB3E09601B35ADB000EB8598 /* TZStackViewDistribution.swift in Sources */,
 				DB3E093B1B35A90000EB8598 /* AppDelegate.swift in Sources */,
+				DF7A05171B81C66F00E90623 /* StackViewDistribution.swift in Sources */,
 				DB3E095F1B35ADB000EB8598 /* TZStackViewAlignment.swift in Sources */,
-				DB3E09631B35AE7800EB8598 /* ExplicitIntrinsicContentSizeView.swift in Sources */,
+				DB3E09631B35AE7800EB8598 /* AutoHideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

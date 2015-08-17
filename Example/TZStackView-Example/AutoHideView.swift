@@ -5,14 +5,8 @@
 
 import UIKit
 
-class ExplicitIntrinsicContentSizeView: UIView {
-
-    let name: String
-    let contentSize: CGSize
-    
-    init(intrinsicContentSize: CGSize, name: String) {
-        self.name = name
-        self.contentSize = intrinsicContentSize
+class AutoHideView: UIView {
+    init() {
         super.init(frame: CGRectZero)
         
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: "tap")
@@ -29,13 +23,4 @@ class ExplicitIntrinsicContentSizeView: UIView {
     required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    override func intrinsicContentSize() -> CGSize {
-        return contentSize
-    }
-    
-    override var description: String  {
-        return name
-    }
-
 }
